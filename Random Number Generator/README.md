@@ -1,1 +1,5 @@
-This is a simple bash script that creates accounts for users on Linux based on information read from  a text file (userAccountsInfo.txt).
+This bash script generates a given number of random numbers with the option of specifing a specific range (i.e. min & max). It also outputs the average, the smallest as well as the greatest random number.
+
+
+How to run?
+sudo ./random_num_generator.sh [number_of_random_numbers_needed] <min> <max>"
