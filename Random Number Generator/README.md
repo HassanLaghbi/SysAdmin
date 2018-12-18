@@ -1,4 +1,4 @@
-This bash script generates a given number of random numbers with the option of specifing a specific range (i.e. min & max). It also outputs the average, the smallest as well as the greatest random number.
+This bash script generates a given number of random numbers with the option of specifing a specific range (i.e. min & max), and outputs them to text file. It also calculates the average, the smallest as well as the greatest random number.
 
 
 How to run?
