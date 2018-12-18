@@ -3,7 +3,6 @@ This Python script takes an input file, as a CLI argument, which should contain 
 Format of the input file:
 <executable_name> <md5_message_digest>
 
-
 Example:
 
 teamnl 280f365eb43ed637a8ccbfc5e2a8436c
