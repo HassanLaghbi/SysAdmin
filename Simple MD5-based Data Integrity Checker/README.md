@@ -1,6 +1,5 @@
 # Simple MD5-based Data Integrity Checker
 
-## ?
 This Python script takes an input file, as a CLI argument, which should contain the MD5 message digests for all exeutables in CentOS's "/usr/bin" directory along with their names. The script then calculates the MD5 message digest for each executable in the "/usr/bin" directory and compares it with that in the original input file. If they are not identical, the script outputs the name of the executable as an effected executable. 
 
 ## Input File Format
