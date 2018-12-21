@@ -1,6 +1,6 @@
 # Application Monitoring Tool in Bash
 
-This bash script runs firefox in background (you can set your own application instead). It then collects process level metrics (about firefox) as well as general system level metrics each two seconds. For process level metrics, the scripts collect 'seconds', 'CPU' and 'memory'. For system level metrics, the script collects 'seconds', 'RX Data Rate', 'TX Data Rate', 'Disk Writes' as well as 'Avaliable Disk Capacity'. The scripts outputs two files, 'process_metrics' and 'system_metrics.txt'.To stop the script, simply click "ctrl+c". 
+This bash script runs firefox in background (you can set your own application instead). It then collects process level metrics (about firefox) as well as general system level metrics each two seconds. For process level metrics, the script collect 'seconds', 'CPU' and 'memory'. For system level metrics, the script collects 'seconds', 'RX Data Rate', 'TX Data Rate', 'Disk Writes' as well as 'Avaliable Disk Capacity'. The scripts outputs two files, 'process_metrics' and 'system_metrics.txt'.To stop the script, simply click "ctrl+c". 
 ### How to run?
 This script was tested on a VirtualBox Centos7 VM, but it is supposed to run on any system with some modifications. Make sure to delete any previous output files before running the script. Also, make sure to change the disk name as well as the network interface name; in my VM, the network interface name is "enp0s3". Your can check it using 'ifconfig'.
 ```bash
